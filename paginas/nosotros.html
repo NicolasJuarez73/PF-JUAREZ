@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARASAKA</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Noto+Sans+Mono:wght@300;400;500&family=Roboto:ital,wght@0,400;0,700;1,500;1,700&family=Silkscreen&family=Zilla+Slab:wght@300;500&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
-<link rel="stylesheet" href="../diseño/css/estilos.css">
-
+    <link rel="stylesheet" href="../diseño/css/estilos.css">
 </head>
 <body>
     <section class="grid__layout" >
@@ -36,20 +33,40 @@
             </div>        
         
         </header>
+        <main class="main__1">
 
-        <main class="color__1 main">
-            <div class="grid__galery main__1">
-                <div class="grid__item alto galery__img__1"></div>
-                <div class="grid__item galery__img__2"></div>
-                <div class="grid__item ancho galery__img__3"></div>
-                <div class="grid__item galery__img__4"></div>
-                <div class="grid__item ancho galery__img__5"></div>
-                <div class="grid__item ancho galery__img__6"></div>
-                <div class="grid__item galery__img__7"></div>
-                <div class="grid__item alto galery__img__8"></div>
-                <div class="grid__item ancho galery__img__9"></div>
-                <div class="grid__item galery__img__10"></div>
-            </div>
+            <form action="" method="get" enctype="text/plain">
+                <fieldset>
+                    <legend>Formulario</legend>
+                <label for="Nombre"> Nombre</label>
+                <input type="text" name="Nombre" id="Nombre" required="" placeholder="Juan">
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="Apellido" id="Apellido" required="" placeholder="Perez">
+                <br>
+                <label for="email">E-MAIL</label>
+                <input type="email" name="email" id="email" required="" placeholder="@gmail.com">
+                <br>
+                <label for="edad">FECHA DE NACIMIENTO:</label>
+                <input type="date" name="edad" id="edad">
+                <label for="años">EDAD:</label>
+                <input type="number" name="años" id="años">
+                <p>Sexo:</p>
+                <label for="Masculino">Masculino</label>
+                <input type="checkbox" name="Masculino" id="Masculino">
+                <label for="Feminino">Femenino</label>
+                <input type="checkbox" name="Femenino" id="Femenino">
+                <br>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña" placeholder="************">
+                </fieldset>
+                <fieldset class="marco"> <legend>Revise bien </legend>
+                    <label for="reset">Reestablecer</label>
+                    <input type="reset" name="reset" id="reset">
+                    <br>
+                    <label for="enviar">Enviar</label>
+                    <input type="submit" name="enviar" id="enviar">
+                </fieldset>
+            </form>
         </main>
         <aside class="aside aside__flex">
 
@@ -68,12 +85,12 @@
         </aside>
         <footer class="color__2 footer">
             <div class="footer__flex">
+                
                 <p>11-1111-1111</p>
                 <p>arasakacontacto@hotmail.com</p>
                 <p>Av. Libertador 1000, CABA , NEO BUENOS AIRES</p>
             </div>    
         </footer>    
-        
     </section>    
 </body>
 </html>
