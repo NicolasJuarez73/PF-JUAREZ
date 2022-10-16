@@ -14,13 +14,12 @@
     <section class="grid__layout" >
         <header class="header">
             <div class="header__flex">
-                <a href="../index.html"><img src="../img/descarga-removebg-preview.png" alt="" height="100px" width="100px"></a>
+                <a href="../index.html"><img src="../img/descarga-removebg-preview.png" alt="" height="100px" width="100px" class="rotate-center"></a>
                 <img src="../img/Screenshot_1.png" alt="" class="header__logo" >
                 <ul class="header__menu">
-                    <li class="header__list">
-                        PRODUCTOS    
+                    <li class="header__list"> <a href="./productos.html">PRODUCTOS</a>  
                     </li>
-                    <li class="header__list">
+                    <li class="header__list header__pagina">
                         NOSOTROS
                     </li>
                     <li class="header__list">
@@ -35,9 +34,9 @@
         </header>
         <main class="main__1">
 
-            <form action="" method="get" enctype="text/plain">
-                <fieldset>
-                    <legend>Formulario</legend>
+            <form action="" method="get" enctype="text/plain" class="">
+                <fieldset class="formulario">
+                    <legend>Conozcanos mas</legend>
                 <label for="Nombre"> Nombre</label>
                 <input type="text" name="Nombre" id="Nombre" required="" placeholder="Juan">
                 <label for="Apellido">Apellido</label>
@@ -59,11 +58,11 @@
                 <label for="contraseña">Contraseña</label>
                 <input type="password" name="contraseña" id="contraseña" placeholder="************">
                 </fieldset>
-                <fieldset class="marco"> <legend>Revise bien </legend>
-                    <label for="reset">Reestablecer</label>
+                <fieldset class="formulario__2"> <legend>Revise bien </legend>
+                    <label for="reset">Reestablecer:</label>
                     <input type="reset" name="reset" id="reset">
                     <br>
-                    <label for="enviar">Enviar</label>
+                    <label for="enviar">Enviar:</label>
                     <input type="submit" name="enviar" id="enviar">
                 </fieldset>
             </form>
