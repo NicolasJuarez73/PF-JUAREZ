@@ -1,0 +1,27 @@
+.main {grid-area: main;
+}
+.main__1 {grid-area: main__1;
+        background-color: white;
+        font-size: 2rem;
+        background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 37%, rgba(0,61,255,1) 100%);
+color: white;}  
+
+.color__1 {background-color: rgb(0, 0, 0);
+                border: black 5px solid;
+                color: white;
+        }
+.contenido {display: flex;
+                justify-content: space-between;
+                padding: 2rem;
+        
+        }
+        
+.contenido__square {
+                border: rgb(255, 0, 0)  2px solid;
+                margin: 1rem;
+                width: 30rem;
+                padding: 2px;
+                color: white;
+                font-size: 1.1rem;
+        }
