@@ -1,11 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'IBM Plex Serif', serif;
-  font-family: 'Noto Sans Mono', monospace;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Silkscreen', cursive;
-  font-family: 'Zilla Slab', serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Orbitron', sans-serif; }
 
 /* GRID LAYAOUT Y AREAS CORRESPONDIENTES*/
 .grid__layout {
@@ -82,11 +79,12 @@
 
 .main__1 {
   grid-area: main__1;
+  padding: 1rem;
   background-color: white;
   font-size: 2rem;
   background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #790909 37%, #003dff 100%);
-  color: white; }
+  background: #620101;
+  background: radial-gradient(circle, #620101 0%, #060001 100%); }
 
 .color__1 {
   background-color: black;
@@ -102,7 +100,7 @@
   border: red 2px solid;
   margin: 1rem;
   width: 30rem;
-  padding: 2px;
+  padding: 10px;
   color: white;
   font-size: 1.1rem; }
 
@@ -111,7 +109,7 @@
 
 .footer__flex {
   padding: 3rem;
-  font-size: 1.7rem;
+  font-size: 1rem;
   font-style: italic;
   display: flex;
   justify-content: space-between; }
