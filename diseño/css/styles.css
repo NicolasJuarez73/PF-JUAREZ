@@ -97,6 +97,19 @@
     color: white;
     font-size: 1.1rem; }
 
+.video__youtube {
+  border: 3px solid red;
+  height: 1px;
+  padding-bottom: 56.25%;
+  position: relative; }
+
+.video__youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
 .footer {
   grid-area: footer; }
 
